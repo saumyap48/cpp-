@@ -23,3 +23,6 @@ int main(){
         }
     }
 }
+
+// Best time complexity is O(N);
+//Average and worst time complexity is O(N^2)
