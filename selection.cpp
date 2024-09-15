@@ -24,5 +24,5 @@ int main(){
         cout<<arr[i]<<" ";
     }
     return 0;
-
 }
+//Average and worste time complexity is O(N^2)
