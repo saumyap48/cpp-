@@ -26,7 +26,7 @@
 
 //The average and worst time complexity is O(N^2);
 //Now assume a case when our array is already shorted we do not have to swap it 
-//so the time complexity in the Best case is o(N);
+//so the time complexity in the Best case is O(N);
 #include<bits/stdc++.h>
  using namespace std ;
  void Bubble_sort(int arr[],int n){
