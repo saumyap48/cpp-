@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 void merge(vector<int>&arr,int low,int mid,int high){
     vector<int>temp;
@@ -22,7 +22,7 @@ void merge(vector<int>&arr,int low,int mid,int high){
         left++;
     }
     //if elements on the right half are still left//
-    while(rigth<=high){
+    while(right<=high){
         temp.push_back(arr[left]);
         right++;
     }
@@ -38,10 +38,10 @@ void mergesort(vector<int>&arr,int low,int high){
     merge(arr,low,mid,high);
 }
 int main(){
-    vecotr<int>arr={9,4,7,6,3,1,5};
+    vector<int>arr={9,4,7,6,3,1,5};
     int n=7;
     cout<<"Before sorting Array"<<endl;
-    for(int i=0; i<N; i++){
+    for(int i=0; i<n; i++){
         cout<<arr[i]<<" ";
     }
     cout<<endl;
