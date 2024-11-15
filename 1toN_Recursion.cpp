@@ -14,3 +14,24 @@ int main(){
      cin>>n;
      print(1,n);
 }
+
+
+//Now By using only one argument
+#include<bits/stdc++.h>
+using namespace std;
+void print(int num){
+    if(num==1){
+        cout<<1<<endl;
+        return;
+    }
+    
+    cout<<num<<endl; 
+    print(num-1);
+      
+}
+int main(){
+     int n;
+     cin>>n;
+     print(n);
+}
+
