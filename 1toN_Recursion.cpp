@@ -1,14 +1,16 @@
 #include<bits/stdc++.h>
 using namespace std;
-void f(int i,int n){
-  if(i<1){
-    return;
-  }
-  cout<<i<<endl;
-  f(i-1,n);
+void print(int num,int n){
+    if(num==n){
+        cout<<num<<endl;
+        return;
+    }
+       cout<<num<<endl; 
+        print(num+1,n);
+      
 }
 int main(){
-  int n;
-  cin>>n;
-  f(n,n);
+     int n;
+     cin>>n;
+     print(1,n);
 }
