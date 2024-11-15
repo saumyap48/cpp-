@@ -24,9 +24,9 @@ void print(int num){
         cout<<1<<endl;
         return;
     }
-    
+      print(num-1);
     cout<<num<<endl; 
-    print(num-1);
+  
       
 }
 int main(){
